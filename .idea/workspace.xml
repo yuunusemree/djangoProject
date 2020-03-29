@@ -1,8 +1,517 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33f94d45-fabe-4e56-add8-c529f17fbe05" name="Default Changelist" comment="">
+    <list default="true" id="33f94d45-fabe-4e56-add8-c529f17fbe05" name="Default Changelist" comment="3. Upload. Template bulundu ve parçalama işlemi yapıldı.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/blog_single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/about_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/about_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/about_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_images_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_images_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/blog_single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/comment_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/comment_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/comment_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/counter_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/course_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/courses_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/event_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/event_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/event_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/footer_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_1_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_2_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_3_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_4_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_5_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/gallery_6_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/home_slider_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/latest_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/latest_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/latest_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/mobile_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/mobile_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/mov_bbb.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/mov_bbb.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/news_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/newsletter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/newsletter_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/partner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/partner_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/partner_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/partner_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/partner_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/partner_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/play_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/teacher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/team_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/team_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/team_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/team_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/team_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/images/video_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/blog_single.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/courses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/masonry/masonry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/plugins/video-js/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/about_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/blog_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/blog_single.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/blog_single_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/course.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/course_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/courses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/courses_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMP/unicat/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/blog_single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/about_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/about_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/about_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_images_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_images_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/blog_single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/comment_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/comment_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/comment_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/counter_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/course_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/courses_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/event_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/event_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/event_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/footer_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_1_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_2_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_3_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_4_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_5_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/gallery_6_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/home_slider_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/latest_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/latest_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/latest_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/mobile_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/mobile_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/mov_bbb.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/mov_bbb.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/news_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/newsletter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/newsletter_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/partner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/partner_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/partner_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/partner_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/partner_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/partner_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/play_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/teacher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/team_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/team_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/team_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/team_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/team_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/images/video_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/blog_single.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/courses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/colorbox/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/masonry/masonry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/plugins/video-js/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/about_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/blog_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/blog_single.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/blog_single_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/course.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/course_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/courses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/courses_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEMPS/unicat/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/about_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/about_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/about_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_images_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_images_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/blog_single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/comment_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/comment_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/comment_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/counter_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/course_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/courses_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/event_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/event_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/event_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/footer_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_1_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_2_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_3_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_4_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_5_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/gallery_6_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/home_slider_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/latest_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/latest_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/latest_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/mobile_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/mobile_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/mov_bbb.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/mov_bbb.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/news_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/newsletter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/newsletter_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/partner_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/partner_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/partner_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/partner_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/partner_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/partner_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/play_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/teacher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/team_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/team_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/team_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/team_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/team_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/images/video_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/blog_single.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/courses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/colorbox/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/masonry/masonry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/plugins/video-js/video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/about_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/blog_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/blog_single.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/blog_single_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/course.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/course_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/courses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/courses_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/pictures/indir.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/pictures/indir.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/indir.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +527,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yuunusemree" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZAOuOJYRfEY7Nxn9h6MtKooUt3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -87,17 +603,39 @@
       <workItem from="1585245858337" duration="602000" />
       <workItem from="1585417907036" duration="1026000" />
       <workItem from="1585421987887" duration="347000" />
-      <workItem from="1585422354243" duration="318000" />
+      <workItem from="1585422354243" duration="1217000" />
+      <workItem from="1585483578928" duration="10991000" />
     </task>
+    <task id="LOCAL-00001" summary="Ikinci Upload">
+      <created>1585422875535</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585422875535</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ikinci Upload" />
+    <MESSAGE value="3. Upload. Template bulundu ve parçalama işlemi yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="3. Upload. Template bulundu ve parçalama işlemi yapıldı." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585422702786">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585516370076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585422702786" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585516370076" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585422894168">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585422894168" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585516411967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585516411967" />
   </component>
 </project>
