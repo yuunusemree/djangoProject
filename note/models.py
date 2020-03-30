@@ -8,7 +8,7 @@ class Category(models.Model):
         ('False', 'Hayır'),
     )
     parent = models.ForeignKey('self', blank=True, null=True, related_name='children', on_delete=models.CASCADE)
-    title = models.CharField(max_length=30)
+    title = models.CharField(max_length=180)
     keywords = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
     image = models.ImageField(blank=True, upload_to='pictures/')
@@ -19,6 +19,7 @@ class Category(models.Model):
 
     def __str__(self):
         return self.title
+
 
 class Note(models.Model):
     STATUS = (
@@ -37,3 +38,14 @@ class Note(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Images(models.Model):
+    note = models.ForeignKey(Note, on_delete=models.CASCADE)
+    title = models.CharField(max_length=100)
+    image = models.ImageField(blank=True, upload_to='pictures/')
+
+    def __str__(self):
+        return self.title
+
+
