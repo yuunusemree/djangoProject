@@ -3,179 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="33f94d45-fabe-4e56-add8-c529f17fbe05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/blog_single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/course.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/about_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/about_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/about_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/banner_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_images_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_images_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/blog_single.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/comment_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/comment_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/comment_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/counter_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/course_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/courses_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/event_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/event_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/event_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/footer_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_1_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_2_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_3_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_4_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_5_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/gallery_6_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/home_slider_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/icon_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/icon_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/icon_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/latest_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/latest_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/latest_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/mobile_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/mobile_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/mov_bbb.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/mov_bbb.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/news_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/newsletter.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/newsletter_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/partner_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/partner_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/partner_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/partner_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/partner_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/partner_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/play_big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/teacher.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/team_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/team_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/team_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/team_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/team_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/video.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/images/video_play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/blog_single.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/contact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/course.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/courses.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/OwlCarousel2-2.2.1/owl.video.play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/colorbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/controls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/loading_background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/images/overlay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/colorbox/jquery.colorbox-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/easing/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/ScrollToPlugin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/TimelineMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/greensock/animation.gsap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/masonry/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/parallax-js-master/parallax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/scrollmagic/ScrollMagic.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/video-js/video-js.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/plugins/video-js/video.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/about_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/blog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/blog_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/blog_single.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/blog_single_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/bootstrap4/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/bootstrap4/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/bootstrap4/popper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/contact.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/contact_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/course.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/course_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/courses.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/courses_responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/main_styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP/unicat/styles/responsive.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +104,7 @@
       <workItem from="1585421987887" duration="347000" />
       <workItem from="1585422354243" duration="1217000" />
       <workItem from="1585483578928" duration="11624000" />
-      <workItem from="1585563076125" duration="10753000" />
+      <workItem from="1585563076125" duration="15993000" />
     </task>
     <task id="LOCAL-00001" summary="Ikinci Upload">
       <created>1585422875535</created>
@@ -302,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585567346719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5. Upload. Admin'de yuklenen resimlerin gosterilmesi saglandi.">
+      <created>1585581193313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585581193313</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,21 +151,22 @@
     <MESSAGE value="Ikinci Upload" />
     <MESSAGE value="3. Upload. Template bulundu ve parçalama işlemi yapıldı." />
     <MESSAGE value="4. Upload. Admin panele notlar icin resim galerisi olusturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Upload. Admin panele notlar icin resim galerisi olusturuldu." />
+    <MESSAGE value="5. Upload. Admin'de yuklenen resimlerin gosterilmesi saglandi." />
+    <option name="LAST_COMMIT_MESSAGE" value="5. Upload. Admin'de yuklenen resimlerin gosterilmesi saglandi." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585567345540">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585581191734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585567345540" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585567355688">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585581191734" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585581198770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585567355688" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585581073975">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585581198770" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585588600391">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585581073975" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585588600391" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585567993477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
