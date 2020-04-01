@@ -4,10 +4,9 @@
     <list default="true" id="33f94d45-fabe-4e56-add8-c529f17fbe05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -104,7 +104,8 @@
       <workItem from="1585421987887" duration="347000" />
       <workItem from="1585422354243" duration="1217000" />
       <workItem from="1585483578928" duration="11624000" />
-      <workItem from="1585563076125" duration="15993000" />
+      <workItem from="1585563076125" duration="16116000" />
+      <workItem from="1585748099354" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="Ikinci Upload">
       <created>1585422875535</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585581193313</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6. Upload. Sitenin Setting'i olusturuldu ve Favicon yerlestirildi.">
+      <created>1585588669832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585588669832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,21 +160,26 @@
     <MESSAGE value="3. Upload. Template bulundu ve parçalama işlemi yapıldı." />
     <MESSAGE value="4. Upload. Admin panele notlar icin resim galerisi olusturuldu." />
     <MESSAGE value="5. Upload. Admin'de yuklenen resimlerin gosterilmesi saglandi." />
-    <option name="LAST_COMMIT_MESSAGE" value="5. Upload. Admin'de yuklenen resimlerin gosterilmesi saglandi." />
+    <MESSAGE value="6. Upload. Sitenin Setting'i olusturuldu ve Favicon yerlestirildi." />
+    <option name="LAST_COMMIT_MESSAGE" value="6. Upload. Sitenin Setting'i olusturuldu ve Favicon yerlestirildi." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585581191734">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1585588668930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585581191734" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585581198770">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585588668930" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1585748457174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585581198770" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585588600391">
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585748457174" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1585588673828">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585588600391" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585588673828" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585750344487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585750344487" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585567993477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
