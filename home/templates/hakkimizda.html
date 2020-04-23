@@ -1,0 +1,61 @@
+{% extends "homebase.html" %}
+
+{% block title %} Hakkimizda - {{ setting.company }} {% endblock %}
+{% block keywords %} {{ setting.keywords }} {% endblock %}
+{% block description %} {{ setting.description }} {% endblock %}
+{% load static %}
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href='{{ setting.icon.url }}'/>
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/colorbox/colorbox.css' %}">
+{% endblock %}
+
+{% block body %}
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="/">Anasayfa</a></li>
+								<li>Hakkimizda</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+    <div class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title_container text-center">
+						<h2 class="section_title">Welcome To Unicat E-Learning</h2>
+						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu Vestibulum</p></div>
+					</div>
+				</div>
+			</div>
+			<div class="row about_row">
+
+				<!-- About Item -->
+				<div class="col-lg about_col">
+					<div class="about_item">
+
+                        {{ setting.aboutus | safe }}
+
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+{% endblock %}
