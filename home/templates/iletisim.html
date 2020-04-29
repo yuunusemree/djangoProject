@@ -1,0 +1,77 @@
+{% extends "homebase.html" %}
+
+{% block title %} İletişim - {{ setting.company }} {% endblock %}
+{% block keywords %} {{ setting.keywords }} {% endblock %}
+{% block description %} {{ setting.description }} {% endblock %}
+{% load static %}
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href='{{ setting.icon.url }}'/>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/contact.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/contact_responsive.css' %}">
+{% endblock %}
+
+{% block body %}
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="/">Anasayfa</a></li>
+								<li>İletişim</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Contact -->
+
+	<div class="contact">
+		<!-- Contact Info -->
+
+		<div class="contact_info_container">
+			<div class="container">
+				<div class="row">
+
+					<!-- Contact Form -->
+					<div class="col-lg-5">
+						<div class="contact_form">
+							<div class="contact_info_title">İletişim Formu</div>
+                            {% if messages %}
+                                {% for message in messages %}
+                                    <div class="alert alert-{{ message.tags }}" role="alert">
+                                        {{ message }}
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+							<form action="" class="comment_form" method="POST">
+                                {% csrf_token %}
+                                {{ form.as_p }}
+								<div>
+									<input type="submit" class="comment_button trans_200" value="Gönder"/>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<!-- Contact Info -->
+					<div class="col-lg-7">
+						<div class="contact_info">
+							<div class="contact_info_title">İletişim Bilgileri</div>
+							<div class="contact_info_text">
+                                {{ setting.contact | safe }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

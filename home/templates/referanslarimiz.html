@@ -1,6 +1,6 @@
 {% extends "homebase.html" %}
 
-{% block title %} Hakkımızda - {{ setting.company }} {% endblock %}
+{% block title %} Referanslar - {{ setting.company }} {% endblock %}
 {% block keywords %} {{ setting.keywords }} {% endblock %}
 {% block description %} {{ setting.description }} {% endblock %}
 {% load static %}
@@ -22,7 +22,7 @@
 						<div class="breadcrumbs">
 							<ul>
 								<li><a href="/">Anasayfa</a></li>
-								<li>Hakkımızda</li>
+								<li>Referanslar</li>
 							</ul>
 						</div>
 					</div>
@@ -38,7 +38,7 @@
             <div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<h1 class="section_title">HAKKIMIZDA</h1>
+						<h1 class="section_title">REFERANSLARIMIZ</h1>
 					</div>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 				<div class="col-lg about_col">
 					<div class="about_item">
 
-                        {{ setting.aboutus | safe }}
+                        {{ setting.references | safe }}
 
                     </div>
 				</div>
