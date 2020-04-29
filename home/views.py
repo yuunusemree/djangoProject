@@ -5,23 +5,27 @@ from django.shortcuts import render
 
 # Create your views here.
 from home.models import Setting, ContactFormu, ContactFormMessage
+from note.models import Note
 
 
 def index(request):
     setting = Setting.objects.get(pk=1)
-    context = {'setting': setting, 'page':'home'}
+    sliderdata = Note.objects.all()[:4]
+    context = {'setting' : setting,
+               'page' : 'home',
+               'sliderdata' : sliderdata}
     return render(request, 'index.html', context)
 
 
 def hakkimizda(request):
     setting = Setting.objects.get(pk=1)
-    context = {'setting': setting}
+    context = {'setting' : setting}
     return render(request, 'hakkimizda.html', context)
 
 
 def referanslar(request):
     setting = Setting.objects.get(pk=1)
-    context = {'setting': setting}
+    context = {'setting' : setting}
     return render(request, 'referanslarimiz.html', context)
 
 
@@ -41,5 +45,6 @@ def iletisim(request):
 
     setting = Setting.objects.get(pk=1)
     form = ContactFormu()
-    context = {'setting': setting, 'form': form}
+    context = {'setting' : setting,
+               'form' : form}
     return render(request, 'iletisim.html', context)

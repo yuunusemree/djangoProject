@@ -12,10 +12,10 @@ class Category(models.Model):
     )
     parent = models.ForeignKey('self', blank=True, null=True, related_name='children', on_delete=models.CASCADE)
     title = models.CharField(max_length=180)
-    keywords = models.CharField(max_length=255)
-    description = models.CharField(max_length=255)
+    keywords = models.CharField(blank=True, max_length=255)
+    description = models.CharField(blank=True, max_length=255)
     image = models.ImageField(blank=True, upload_to='pictures/')
-    slug = models.SlugField()
+    slug = models.SlugField(blank=True, max_length=180)
     status = models.CharField(max_length=10, choices=STATUS)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -36,10 +36,11 @@ class Note(models.Model):
     )
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     title = models.CharField(max_length=180)
-    keywords = models.CharField(max_length=255)
-    description = models.CharField(max_length=255)
+    keywords = models.CharField(blank=True, max_length=255)
+    description = models.CharField(blank=True, max_length=255)
     image = models.ImageField(blank=True, upload_to='pictures/')
     detail = RichTextUploadingField(blank=True)
+    slug = models.SlugField(blank=True, max_length=180)
     status = models.CharField(max_length=10, choices=STATUS)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -51,6 +52,9 @@ class Note(models.Model):
         return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
 
     image_tag.short_description = 'Image'
+
+    def cating_tag(self):
+        return mark_safe((Category.status))
 
 
 class Images(models.Model):
