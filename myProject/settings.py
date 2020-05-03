@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'ckeditor',
     'ckeditor_uploader',
+    'mptt',
 
 ]
 

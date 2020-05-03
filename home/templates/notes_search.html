@@ -1,0 +1,99 @@
+{% extends "homebase.html" %}
+
+{% block title %} Arama Sonuçları {% endblock %}
+{% block keywords %} {{ categorydata.keywords }} {% endblock %}
+{% block description %} {{ categorydata.description }} {% endblock %}
+{% load static %}
+{% block head %}
+    <link rel="shortcut icon" type="image/x-icon" href='{{ setting.icon.url }}'/>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/courses.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/courses_responsive.css' %}">
+{% endblock %}
+
+{% block body %}
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="/">Anasayfa</a></li>
+								<li>{{ categorydata.title }}</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="blog">
+		<div class="container">
+			<div class="row">
+                <div style="width:1200px; height: 100px" ></div>
+                <div class="col-lg-8">
+
+                    <div class="courses_search_container">
+                        <form action="/search/" method="POST" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
+                            {% csrf_token %}
+                            <input type="search" name="query" class="courses_search_input" placeholder="Search Courses">
+                            <select id="courses_search_select" class="courses_search_select courses_search_input">
+                                <option>All Categories</option>
+                                <option>Category</option>
+                                <option>Category</option>
+                                <option>Category</option>
+                            </select>
+                            <button class="courses_search_button ml-auto">search now</button>
+                        </form>
+                    </div>
+
+                    <table class="courses_row" cellpadding="5" width="800">
+                        <tr>
+                            <th>Image</th>
+                            <th>Note Name</th>
+                            <th>Category</th>
+                        </tr>
+                        <tr>
+                            <td height="20"></td>
+                        </tr>
+                        {% for rs in notes %}
+                            <tr>
+                                <td><a href="/note/{{ rs.id }}/{{ rs.slug }}"><img src="{{ rs.image.url }}" style="height: 100px" alt=""/></a></td>
+                                <td><h4 class="blog_post_title"><a href="/note/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></h4></td>
+                                <td><a href="/category/{{ rs.category.id }}/{{ rs.category.slug }}">{{ rs.category }}</a></td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                <!-- Courses Sidebar -->
+				<div class="col-lg-4">
+					<div class="sidebar">
+
+						<!-- Categories -->
+						<div class="sidebar_section">
+							<div class="sidebar_section_title">Categories</div>
+							<div class="sidebar_categories">
+                                <ul>
+                                    {% load mptt_tags %}
+                                        {% recursetree category %}
+                                            <li>
+                                                <a href="#">{{ node.title }}</a>
+                                                {% if not node.is_leaf_node %}
+                                                    <li><a href="#">{{ children }}</a></li>
+                                                {% endif %}
+                                            </li>
+                                    {% endrecursetree %}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

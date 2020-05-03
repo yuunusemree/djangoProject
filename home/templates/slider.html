@@ -16,9 +16,10 @@
                                 <div class="home_slider_title"><a href="/note/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></div>
                                 <div class="home_slider_subtitle">{{ rs.description }}</div>
                                 <div class="home_slider_form_container">
-                                    <form action="#" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
+                                    <form action="/search/" method="POST" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
                                         <div class="d-flex flex-row align-items-center justify-content-start">
-                                            <input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
+                                            {% csrf_token %}
+                                            <input type="search" name="query" class="home_search_input" placeholder="Keyword Search" required="required">
                                             <select class="dropdown_item_select home_search_input">
                                                 <option>Category Courses</option>
                                                 <option>Category</option>
