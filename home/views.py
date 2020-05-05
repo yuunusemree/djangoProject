@@ -5,7 +5,7 @@ from django.shortcuts import render
 # Create your views here.
 from home.forms import SearchForm
 from home.models import Setting, ContactFormu, ContactFormMessage
-from note.models import Note, Category
+from note.models import Note, Category, Images
 
 
 def index(request):
@@ -80,7 +80,21 @@ def category_notes(request, id, slug):
     return render(request, 'dersler.html', context)
 
 
-def product_search(request):
+def note_detail(request, id, slug):
+    category = Category.objects.all()
+    note = Note.objects.get(pk=id)
+    images = Images.objects.filter(note_id=id)
+    lastnotes = Note.objects.all().order_by('-id')[:3]
+    context = {'note': note,
+               'category': category,
+               'slug': slug,
+               'images': images,
+               'lastnotes': lastnotes
+               }
+    return render(request, 'note_detail.html', context)
+
+
+def note_search(request):
     if request.method == 'POST':
         form = SearchForm(request.POST)
         if form.is_valid():
