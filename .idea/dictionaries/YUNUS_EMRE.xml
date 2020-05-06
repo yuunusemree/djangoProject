@@ -1,6 +1,8 @@
 <component name="ProjectDictionaryState">
   <dictionary name="YUNUS EMRE">
     <words>
+      <w>addcomment</w>
+      <w>alınmıştır</w>
       <w>anasayfa</w>
       <w>categorydata</w>
       <w>cating</w>
@@ -8,11 +10,15 @@
       <w>colorbox</w>
       <w>dersler</w>
       <w>evet</w>
+      <w>gerçekleşmedi</w>
       <w>hakkimizda</w>
       <w>hakkımızda</w>
       <w>hayır</w>
       <w>iletisim</w>
+      <w>işlemi</w>
       <w>i̇letişim</w>
+      <w>i̇şlemi</w>
+      <w>kaydedilme</w>
       <w>lastnotes</w>
       <w>mesaj</w>
       <w>mptt</w>
@@ -20,6 +26,8 @@
       <w>referanslar</w>
       <w>referanslarimiz</w>
       <w>sliderdata</w>
+      <w>teşekkürler</w>
+      <w>yorumunuz</w>
     </words>
   </dictionary>
 </component>

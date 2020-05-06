@@ -15,9 +15,12 @@
     <link type="text/css" rel="stylesheet" href="{% static 'second/css/style.css' %}">
     //burada bitiyor
 
+
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/contact.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'plugins/colorbox/colorbox.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'styles/course.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'styles/course_responsive.css' %}">
+
 {% endblock %}
 
 {% block body %}
@@ -234,73 +237,84 @@
 									<!-- Comments -->
 									<div class="comments_container">
 										<ul class="comments_list">
-											<li>
-												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-													<div class="comment_image"><div><img src="{% static 'images/comment_1.jpg' %}" alt=""></div></div>
-													<div class="comment_content">
-														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
-															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
-															<div class="comment_rating"><div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div></div>
-															<div class="comment_time ml-auto">1 day ago</div>
-														</div>
-														<div class="comment_text">
-															<p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
-														</div>
-														<div class="comment_extras d-flex flex-row align-items-center justify-content-start">
-															<div class="comment_extra comment_likes"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>15</span></a></div>
-															<div class="comment_extra comment_reply"><a href="#"><i class="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></div>
-														</div>
-													</div>
-												</div>
-												<ul>
-													<li>
-														<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-															<div class="comment_image"><div><img src="{% static 'images/comment_2.jpg' %}" alt=""></div></div>
-															<div class="comment_content">
-																<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
-																	<div class="comment_author"><a href="#">John Tyler</a></div>
-																	<div class="comment_rating"><div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div></div>
-																	<div class="comment_time ml-auto">1 day ago</div>
-																</div>
-																<div class="comment_text">
-																	<p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
-																</div>
-																<div class="comment_extras d-flex flex-row align-items-center justify-content-start">
-																	<div class="comment_extra comment_likes"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>15</span></a></div>
-																	<div class="comment_extra comment_reply"><a href="#"><i class="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></div>
-																</div>
-															</div>
-														</div>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-													<div class="comment_image"><div><img src="{% static 'images/comment_3.jpg' %}" alt=""></div></div>
-													<div class="comment_content">
-														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
-															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
-															<div class="comment_rating"><div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div></div>
-															<div class="comment_time ml-auto">1 day ago</div>
-														</div>
-														<div class="comment_text">
-															<p>There are many variations of passages of Lorem Ipsum available, but the majority have alteration in some form, by injected humour.</p>
-														</div>
-														<div class="comment_extras d-flex flex-row align-items-center justify-content-start">
-															<div class="comment_extra comment_likes"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i><span>15</span></a></div>
-															<div class="comment_extra comment_reply"><a href="#"><i class="fa fa-reply" aria-hidden="true"></i><span>Reply</span></a></div>
-														</div>
-													</div>
-												</div>
-											</li>
+                                            {% for rs in comments %}
+                                                <li>
+                                                    <div class="comment_item d-flex flex-row align-items-start jutify-content-start">
+                                                        <div class="comment_image"><div><img src="{% static 'images/comment_1.jpg' %}" alt=""></div></div>
+                                                        <div class="comment_content">
+                                                            <div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
+                                                                <div class="comment_author"><a href="#">{{ rs.user.first_name }}</a></div>
+                                                                <div class="comment_rating">
+                                                                    <div class="rating_r rating_r_{{ rs.rate }}">
+                                                                        <i></i>
+                                                                        <i></i>
+                                                                        <i></i>
+                                                                        <i></i>
+                                                                        <i></i>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="comment_time ml-auto">{{ rs.created_at.date }}</div>
+                                                            </div>
+                                                            <div class="comments_title" style="margin-top: 5px">
+                                                                <h5>{{ rs.subject }}</h5>
+                                                            </div>
+                                                            <div class="comment_text">
+                                                                <p>{{ rs.comment }}</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            {% endfor %}
 										</ul>
 										<div class="add_comment_container">
+                                        {% if user.id is None %}
 											<div class="add_comment_title">Add a review</div>
-											<div class="add_comment_text">You must be <a href="#">logged</a> in to post a comment.</div>
+											<div class="add_comment_text">You must be <a href="/login">logged</a> in to post a comment.</div>
+                                        {% else %}
+                                            <div class="add_comment_title" style="padding-bottom: 15px">Review Form</div>
+                                            {% if messages %}
+                                                {% for message in messages %}
+                                                    <div class="alert alert-{{ message.tags }}" role="alert">
+                                                        {{ message }}
+                                                    </div>
+                                                {% endfor %}
+                                            {% endif %}
+                                            <form class="review-form" action="/note/addcomment/{{ note.id }}" method="POST">
+                                                {% csrf_token %}
+                                                <div>
+                                                    <div class="form_title">Subject</div>
+                                                    <div class="form-group">
+                                                        <input type="text" class="comment_input" name="subject" id="id_subject" required="required">
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="form_title">Comment</div>
+                                                    <div class="form-group">
+                                                        <textarea class="comment_input comment_textarea" name="comment" id="id_comment" required="required"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="form_title">Your Rating:</div>
+                                                    <div class="form-group">
+                                                        <div class="input-rating">
+                                                            <div class="stars">
+                                                                <input type="radio" id="star5" name="rate" value="5" required="required"/><label for="star5"></label>
+                                                                <input type="radio" id="star4" name="rate" value="4" required="required"/><label for="star4"></label>
+                                                                <input type="radio" id="star3" name="rate" value="3" required="required"/><label for="star3"></label>
+                                                                <input type="radio" id="star2" name="rate" value="2" required="required"/><label for="star2"></label>
+                                                                <input type="radio" id="star1" name="rate" value="1" required="required"/><label for="star1"></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <button class="comment_button trans_200" value="Send Comment">Send Comment</button>
+                                                </div>
+                                            </form>
+                                            {% endif %}
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 					</div>

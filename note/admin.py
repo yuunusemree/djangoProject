@@ -1,7 +1,7 @@
 from django.contrib import admin
 from mptt.admin import MPTTModelAdmin, DraggableMPTTAdmin
 
-from note.models import Category, Note, Images
+from note.models import Category, Note, Images, Comment
 
 
 # Register your models here.
@@ -63,6 +63,12 @@ class ImagesAdmin(admin.ModelAdmin):
     readonly_fields = ('image_tag',)
 
 
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ['subject', 'comment', 'note', 'user', 'status']
+    list_filter = ['status']
+
+
 admin.site.register(Category, CategoryAdmin2)
 admin.site.register(Note, NoteAdmin)
 admin.site.register(Images, ImagesAdmin)
+admin.site.register(Comment, CommentAdmin)

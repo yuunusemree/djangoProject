@@ -5,7 +5,7 @@ from django.shortcuts import render
 # Create your views here.
 from home.forms import SearchForm
 from home.models import Setting, ContactFormu, ContactFormMessage
-from note.models import Note, Category, Images
+from note.models import Note, Category, Images, Comment
 
 
 def index(request):
@@ -84,11 +84,13 @@ def note_detail(request, id, slug):
     category = Category.objects.all()
     note = Note.objects.get(pk=id)
     images = Images.objects.filter(note_id=id)
+    comments = Comment.objects.filter(note_id=id, status='True')
     lastnotes = Note.objects.all().order_by('-id')[:3]
     context = {'note': note,
                'category': category,
                'slug': slug,
                'images': images,
+               'comments': comments,
                'lastnotes': lastnotes
                }
     return render(request, 'note_detail.html', context)

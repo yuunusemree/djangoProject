@@ -5,13 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/dersler.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/dersler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/referanslarimiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/referanslarimiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/note_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/note_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,8 @@
       <workItem from="1588509449031" duration="3247000" />
       <workItem from="1588533759780" duration="8329000" />
       <workItem from="1588605033421" duration="2607000" />
-      <workItem from="1588704217877" duration="10968000" />
+      <workItem from="1588704217877" duration="11269000" />
+      <workItem from="1588766436794" duration="11518000" />
     </task>
     <task id="LOCAL-00001" summary="Ikinci Upload">
       <created>1585422875535</created>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588543589132</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="16. Upload. Notlar için detay sayfası düzenlemesi yapıldı. Template'imde galeri kısmı olmadığı için hocamın template'inden galeri kısmını almam gerekti. Kendi projeme göre uyarlamasını da yaptım.">
+      <created>1588717685055</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588717685055</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,17 +289,18 @@
     <MESSAGE value="12. Upload. Contact form eklendi. Önceki çözülemeyen sorunlar çözüldü." />
     <MESSAGE value="13. Upload. Slider ayarlaması yapıldı." />
     <MESSAGE value="15. Upload. Anasayfada ürünlerin gösterilmesi yapıldı. Arama çubuğundan arama yapılması sağlandı." />
-    <option name="LAST_COMMIT_MESSAGE" value="15. Upload. Anasayfada ürünlerin gösterilmesi yapıldı. Arama çubuğundan arama yapılması sağlandı." />
+    <MESSAGE value="16. Upload. Notlar için detay sayfası düzenlemesi yapıldı. Template'imde galeri kısmı olmadığı için hocamın template'inden galeri kısmını almam gerekti. Kendi projeme göre uyarlamasını da yaptım." />
+    <option name="LAST_COMMIT_MESSAGE" value="16. Upload. Notlar için detay sayfası düzenlemesi yapıldı. Template'imde galeri kısmı olmadığı için hocamın template'inden galeri kısmını almam gerekti. Kendi projeme göre uyarlamasını da yaptım." />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588358058807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588358058807" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1588543587929">
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1588717683537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588543587929" />
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588717683537" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1587642502491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -301,10 +309,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585748457174" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588543596452">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588717691280">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588543596452" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588717691280" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587651272478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
