@@ -33,7 +33,10 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('search/', views.note_search, name='note_search'),
-    path('search_auto/', views.note_search_auto, name='note_search_auto')
+    path('search_auto/', views.note_search_auto, name='note_search_auto'),
+    path('logout/', views.logout_view, name='logout_view'),
+    path('login/', views.login_view, name='login_view'),
+    path('register/', views.register_view, name='register_view'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

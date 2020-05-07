@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f94d45-fabe-4e56-add8-c529f17fbe05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/dersler.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/dersler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/note_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/note_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/notes_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/notes_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/referanslarimiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/referanslarimiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +41,13 @@
         <item name="db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="auth_user: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -174,7 +169,8 @@
       <workItem from="1588704217877" duration="11269000" />
       <workItem from="1588766436794" duration="11638000" />
       <workItem from="1588791946449" duration="9684000" />
-      <workItem from="1588849335775" duration="15359000" />
+      <workItem from="1588849335775" duration="18951000" />
+      <workItem from="1588875559798" duration="11386000" />
     </task>
     <task id="LOCAL-00001" summary="Ikinci Upload">
       <created>1585422875535</created>
@@ -288,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588779729909</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="18. Upload. Aramada otomatik tamamlama ve otomatik slug oluşturma işlemleri gerçekleştirildi. Önceden kalma bir hata olan header panelin diğer sayfalarda açılmamasından dolayı -template'im sebebiyle- script ve css'leri her sayfada gönderme yöntemiyle sorunu çözdüm.">
+      <created>1588865215290</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588865215290</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,17 +313,18 @@
     <MESSAGE value="15. Upload. Anasayfada ürünlerin gösterilmesi yapıldı. Arama çubuğundan arama yapılması sağlandı." />
     <MESSAGE value="16. Upload. Notlar için detay sayfası düzenlemesi yapıldı. Template'imde galeri kısmı olmadığı için hocamın template'inden galeri kısmını almam gerekti. Kendi projeme göre uyarlamasını da yaptım." />
     <MESSAGE value="17. Upload. Notlar için yorum yapabilme kısmını düzenledim. Eğer user login olmadıysa formu hiç göremeyecek, login olduysa yorum yapabilecek." />
-    <option name="LAST_COMMIT_MESSAGE" value="17. Upload. Notlar için yorum yapabilme kısmını düzenledim. Eğer user login olmadıysa formu hiç göremeyecek, login olduysa yorum yapabilecek." />
+    <MESSAGE value="18. Upload. Aramada otomatik tamamlama ve otomatik slug oluşturma işlemleri gerçekleştirildi. Önceden kalma bir hata olan header panelin diğer sayfalarda açılmamasından dolayı -template'im sebebiyle- script ve css'leri her sayfada gönderme yöntemiyle sorunu çözdüm." />
+    <option name="LAST_COMMIT_MESSAGE" value="18. Upload. Aramada otomatik tamamlama ve otomatik slug oluşturma işlemleri gerçekleştirildi. Önceden kalma bir hata olan header panelin diğer sayfalarda açılmamasından dolayı -template'im sebebiyle- script ve css'leri her sayfada gönderme yöntemiyle sorunu çözdüm." />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588358058807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588358058807" />
-    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1588779728492">
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1588865213783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588779728492" />
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588865213783" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1588864134559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -333,10 +337,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585748457174" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588779736073">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588865217722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588779736073" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588865217722" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588850784952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
