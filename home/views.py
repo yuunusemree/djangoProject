@@ -1,3 +1,5 @@
+import json
+
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
@@ -32,7 +34,7 @@ def hakkimizda(request):
 
 def dersler(request):
     setting = Setting.objects.get(pk=1)
-    category = Category.objects.all().order_by('parent_id')
+    category = Category.objects.all()
     notes = Note.objects.all()
     context = {'setting': setting,
                'category': category,
@@ -102,9 +104,29 @@ def note_search(request):
         if form.is_valid():
             category = Category.objects.all
             query = form.cleaned_data['query']
-            notes = Note.objects.filter(title__icontains=query)
+            catid = form.cleaned_data['catid']
+            if catid == 0:
+                notes = Note.objects.filter(title__icontains=query)
+            else:
+                notes = Note.objects.filter(title__icontains=query, category_id=catid)
             context = {'notes': notes,
                        'category': category
                        }
             return render(request, 'notes_search.html', context)
     return HttpResponseRedirect('/')
+
+
+def note_search_auto(request):
+    if request.is_ajax():
+        q = request.GET.get('term', '')
+        note = Note.objects.filter(title__icontains=q)
+        results = []
+        for rs in note:
+            note_json = {}
+            note_json = rs.title
+            results.append(note_json)
+        data = json.dumps(results)
+    else:
+        data = 'fail'
+    mimetype = 'application/json'
+    return HttpResponse(data, mimetype)

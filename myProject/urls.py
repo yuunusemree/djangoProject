@@ -32,7 +32,8 @@ urlpatterns = [
     path('note/', include('note.urls')),
     path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),
-    path('search/', views.note_search, name='note_search')
+    path('search/', views.note_search, name='note_search'),
+    path('search_auto/', views.note_search_auto, name='note_search_auto')
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

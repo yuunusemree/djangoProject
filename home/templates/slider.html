@@ -1,4 +1,5 @@
 {% load static %}
+
 <!-- Home -->
 <div class="home">
     <div class="home_slider_container">
@@ -8,32 +9,14 @@
             {% for rs in sliderdata %}
             <!-- Home Slider Item -->
             <div class="owl-item">
-                <img class="home_slider_background" src={{ rs.image.url }}/>
+                <img class="home_slider_background" src="{{ rs.image.url }}" style="animation-duration: 5000s"/>
                 <div class="home_slider_content">
                     <div class="container">
                         <div class="row">
                             <div class="col text-center">
                                 <div class="home_slider_title"><a href="/note/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></div>
                                 <div class="home_slider_subtitle">{{ rs.description }}</div>
-                                <div class="home_slider_form_container">
-                                    <form action="/search/" method="POST" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-                                        <div class="d-flex flex-row align-items-center justify-content-start">
-                                            {% csrf_token %}
-                                            <input type="search" name="query" class="home_search_input" placeholder="Keyword Search" required="required">
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Category Courses</option>
-                                                <option>Category</option>
-                                                <option>Category</option>
-                                            </select>
-                                            <select class="dropdown_item_select home_search_input">
-                                                <option>Select Course Name</option>
-                                                <option>Course Name</option>
-                                                <option>Course Name</option>
-                                            </select>
-                                        </div>
-                                        <button type="submit" class="home_search_button">search</button>
-                                    </form>
-                                </div>
+
                             </div>
                         </div>
                     </div>

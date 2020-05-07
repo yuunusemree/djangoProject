@@ -5,12 +5,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/dersler.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/dersler.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/hakkimizda.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/hakkimizda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/homebase.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/homebase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/iletisim.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/iletisim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/templates/note_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/note_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/notes_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/notes_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/referanslarimiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/referanslarimiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/slider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/note/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +172,9 @@
       <workItem from="1588533759780" duration="8329000" />
       <workItem from="1588605033421" duration="2607000" />
       <workItem from="1588704217877" duration="11269000" />
-      <workItem from="1588766436794" duration="11518000" />
+      <workItem from="1588766436794" duration="11638000" />
+      <workItem from="1588791946449" duration="9684000" />
+      <workItem from="1588849335775" duration="15359000" />
     </task>
     <task id="LOCAL-00001" summary="Ikinci Upload">
       <created>1585422875535</created>
@@ -269,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588717685055</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="17. Upload. Notlar için yorum yapabilme kısmını düzenledim. Eğer user login olmadıysa formu hiç göremeyecek, login olduysa yorum yapabilecek.">
+      <created>1588779729909</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588779729909</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,17 +309,22 @@
     <MESSAGE value="13. Upload. Slider ayarlaması yapıldı." />
     <MESSAGE value="15. Upload. Anasayfada ürünlerin gösterilmesi yapıldı. Arama çubuğundan arama yapılması sağlandı." />
     <MESSAGE value="16. Upload. Notlar için detay sayfası düzenlemesi yapıldı. Template'imde galeri kısmı olmadığı için hocamın template'inden galeri kısmını almam gerekti. Kendi projeme göre uyarlamasını da yaptım." />
-    <option name="LAST_COMMIT_MESSAGE" value="16. Upload. Notlar için detay sayfası düzenlemesi yapıldı. Template'imde galeri kısmı olmadığı için hocamın template'inden galeri kısmını almam gerekti. Kendi projeme göre uyarlamasını da yaptım." />
+    <MESSAGE value="17. Upload. Notlar için yorum yapabilme kısmını düzenledim. Eğer user login olmadıysa formu hiç göremeyecek, login olduysa yorum yapabilecek." />
+    <option name="LAST_COMMIT_MESSAGE" value="17. Upload. Notlar için yorum yapabilme kısmını düzenledim. Eğer user login olmadıysa formu hiç göremeyecek, login olduysa yorum yapabilecek." />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588358058807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588358058807" />
-    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1588717683537">
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1588779728492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588717683537" />
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588779728492" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1588864134559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1588864134559" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1587642502491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -309,10 +333,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585748457174" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588717691280">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588779736073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588717691280" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588779736073" />
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588850784952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1588850784952" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587651272478">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

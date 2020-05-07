@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 from django.forms import ModelForm
+from django.urls import reverse
 from django.utils.safestring import mark_safe
 from ckeditor_uploader.fields import RichTextUploadingField
 from mptt.fields import TreeForeignKey
@@ -19,7 +20,7 @@ class Category(MPTTModel):
     keywords = models.CharField(blank=True, max_length=255)
     description = models.CharField(blank=True, max_length=255)
     image = models.ImageField(blank=True, upload_to='pictures/')
-    slug = models.SlugField(blank=True, max_length=180)
+    slug = models.SlugField(null=False, unique=True)
     status = models.CharField(max_length=10, choices=STATUS)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -40,6 +41,9 @@ class Category(MPTTModel):
 
     image_tag.short_description = 'Image'
 
+    def get_absolute_url(self):
+        return reverse('category_detail', kwargs={'slug': self.slug})
+
 
 class Note(models.Model):
     STATUS = (
@@ -52,7 +56,7 @@ class Note(models.Model):
     description = models.CharField(blank=True, max_length=255)
     image = models.ImageField(blank=True, upload_to='pictures/')
     detail = RichTextUploadingField(blank=True)
-    slug = models.SlugField(blank=True, max_length=180)
+    slug = models.SlugField(unique=True, null=False)
     status = models.CharField(max_length=10, choices=STATUS)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
@@ -67,6 +71,9 @@ class Note(models.Model):
 
     def cating_tag(self):
         return mark_safe((Category.status))
+
+    def get_absolute_url(self):
+        return reverse('note_detail', kwargs={'slug': self.slug})
 
 
 class Images(models.Model):

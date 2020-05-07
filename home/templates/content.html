@@ -1,4 +1,48 @@
 {% load static %}
+<script>
+    $(function(){
+        $("#query").autocomplete({
+            source: "/search_auto/",
+            select: function (event, ui){ //item selected
+                AutoCompleteSelectHandler(event, ui)
+            },
+        minLength: 2,
+        });
+    });
+
+    function AutoCompleteSelectHandler(event, ui){
+        var selectedObj = ui.item;
+    }
+</script>
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <div class="home_slider_form_container">
+                <form action="/search/" method="POST" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
+                    <div class="d-flex flex-row align-items-center justify-content-center">
+                        {% csrf_token %}
+                        <input type="text" name="query" id="query" class="home_search_input" required="required" placeholder="Keyword Search">
+                        {% load mptt_tags %}
+                        <select name="catid" id="catid" class="dropdown_item_select home_search_input">
+                            <option value="0">All Categories</option>
+                            {% recursetree category %}
+                                {% if node.is_leaf_node %}
+                                    <option value="{{ node.id }}">{{ node.title }}</option>
+                                {% endif %}
+                                {% if not node.is_leaf_node  %}
+                                    <optgroup label="{{ node.title }}">{{ children }}</optgroup>
+                                {% endif %}
+                            {% endrecursetree %}
+                        </select>
+                    </div>
+                    <button class="home_search_button">search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Features -->
 <div class="features">
     <div class="container">

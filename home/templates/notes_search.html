@@ -6,9 +6,31 @@
 {% load static %}
 {% block head %}
     <link rel="shortcut icon" type="image/x-icon" href='{{ setting.icon.url }}'/>
+    <link rel="stylesheet" type="text/css"  href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'plugins/colorbox/colorbox.css' %}">
+    <link rel="stylesheet" type="text/css"  href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+    <link rel="stylesheet" type="text/css"  href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+    <link rel="stylesheet" type="text/css"  href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'styles/courses.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'styles/courses_responsive.css' %}">
 {% endblock %}
+
+<script>
+    $(function(){
+        $("#query").autocomplete({
+            source: "/search_auto/",
+            select: function (event, ui){ //item selected
+                AutoCompleteSelectHandler(event, ui)
+            },
+        minLength: 2,
+        });
+    });
+
+    function AutoCompleteSelectHandler(event, ui){
+        var selectedObj = ui.item;
+    }
+</script>
 
 {% block body %}
 
@@ -38,14 +60,20 @@
                 <div class="col-lg-8">
 
                     <div class="courses_search_container">
-                        <form action="/search/" method="POST" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
+                        <form action="/search/" method="POST" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
                             {% csrf_token %}
-                            <input type="search" name="query" class="courses_search_input" placeholder="Search Courses">
-                            <select id="courses_search_select" class="courses_search_select courses_search_input">
-                                <option>All Categories</option>
-                                <option>Category</option>
-                                <option>Category</option>
-                                <option>Category</option>
+                            <input type="text" name="query" id="query" class="courses_search_input" placeholder="Search Courses">
+                            {% load mptt_tags %}
+                            <select name="catid" id="catid" class="courses_search_select courses_search_input">
+                                <option value="0">All Categories</option>
+                                    {% recursetree category %}
+                                        {% if node.is_leaf_node %}
+                                            <option value="{{ node.id }}">{{ node.title }}</option>
+                                        {% endif %}
+                                        {% if not node.is_leaf_node  %}
+                                            <optgroup label="{{ node.title }}">{{ children }}</optgroup>
+                                        {% endif %}
+                                    {% endrecursetree %}
                             </select>
                             <button class="courses_search_button ml-auto">search now</button>
                         </form>

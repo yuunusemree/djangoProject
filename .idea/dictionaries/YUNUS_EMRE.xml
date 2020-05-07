@@ -5,6 +5,7 @@
       <w>alınmıştır</w>
       <w>anasayfa</w>
       <w>categorydata</w>
+      <w>catid</w>
       <w>cating</w>
       <w>ckeditor</w>
       <w>colorbox</w>
@@ -21,6 +22,7 @@
       <w>kaydedilme</w>
       <w>lastnotes</w>
       <w>mesaj</w>
+      <w>mimetype</w>
       <w>mptt</w>
       <w>randomnotes</w>
       <w>referanslar</w>
