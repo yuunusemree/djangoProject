@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33f94d45-fabe-4e56-add8-c529f17fbe05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/YUNUS_EMRE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/dersler.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/dersler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -176,7 +173,7 @@
       <workItem from="1588849335775" duration="18951000" />
       <workItem from="1588875559798" duration="11608000" />
       <workItem from="1588967926127" duration="10148000" />
-      <workItem from="1589023821974" duration="5128000" />
+      <workItem from="1589023821974" duration="15689000" />
     </task>
     <task id="LOCAL-00001" summary="Ikinci Upload">
       <created>1585422875535</created>
@@ -304,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588889380836</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="20. Upload. Üye profiline ek bilgiler girilmesi yapıldı. Üye paneli sayfası oluşturuldu.">
+      <created>1589041665310</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1589041665310</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,17 +332,18 @@
     <MESSAGE value="17. Upload. Notlar için yorum yapabilme kısmını düzenledim. Eğer user login olmadıysa formu hiç göremeyecek, login olduysa yorum yapabilecek." />
     <MESSAGE value="18. Upload. Aramada otomatik tamamlama ve otomatik slug oluşturma işlemleri gerçekleştirildi. Önceden kalma bir hata olan header panelin diğer sayfalarda açılmamasından dolayı -template'im sebebiyle- script ve css'leri her sayfada gönderme yöntemiyle sorunu çözdüm." />
     <MESSAGE value="19. Upload. User login ve logout işlemleri yapılması sağlandı. User için register formu oluşturuldu. Denemeler başarılı." />
-    <option name="LAST_COMMIT_MESSAGE" value="19. Upload. User login ve logout işlemleri yapılması sağlandı. User için register formu oluşturuldu. Denemeler başarılı." />
+    <MESSAGE value="20. Upload. Üye profiline ek bilgiler girilmesi yapıldı. Üye paneli sayfası oluşturuldu." />
+    <option name="LAST_COMMIT_MESSAGE" value="20. Upload. Üye profiline ek bilgiler girilmesi yapıldı. Üye paneli sayfası oluşturuldu." />
   </component>
   <component name="WindowStateProjectService">
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588358058807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="433" y="45" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588358058807" />
-    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1588889378572">
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2" timestamp="1589041663624">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588889378572" />
+    <state x="219" y="0" width="933" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589041663624" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1588864134559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -351,10 +356,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585748457174" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588889383632">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1589041682798">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588889383632" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1589041682798" />
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1588850784952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
