@@ -1,9 +1,11 @@
 from ckeditor_uploader.fields import RichTextUploadingField
+from django.contrib.auth.models import User
 from django.db import models
 
 
 # Create your models here.
 from django.forms import ModelForm, TextInput, Textarea
+from django.utils.safestring import mark_safe
 
 
 class Setting(models.Model):
@@ -68,3 +70,31 @@ class ContactFormu(ModelForm):
             'email': TextInput(attrs={'class' : 'comment_input', 'placeholder' : 'Email'}),
             'message': Textarea(attrs={'class' : 'comment_input', 'placeholder' : 'Your Message', 'rows':'5'}),
         }
+
+
+class UserProfile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    phone = models.CharField(blank=True, max_length=20)
+    address = models.CharField(blank=True, max_length=200)
+    city = models.CharField(blank=True, max_length=40)
+    country = models.CharField(blank=True, max_length=50)
+    image = models.ImageField(blank=True, upload_to='pictures/users/')
+
+    def image_tag(self):
+        return mark_safe('<img src="{}" height="50"/>'.format(self.image.url))
+
+    image_tag.short_description = 'Image'
+
+    def user_name(self):
+        return self.user.first_name + ' ' + self.user.last_name + ' [' + self.user.username + ']'
+
+    def __str__(self):
+        return self.user.username
+
+
+class UserProfileForm(ModelForm):
+    class Meta:
+        model = UserProfile
+        fields = ['phone', 'address', 'city', 'country', 'image']
+
+
