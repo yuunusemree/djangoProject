@@ -1,12 +1,14 @@
 from django.contrib import messages
 from django.contrib.auth import update_session_auth_hash
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import PasswordChangeForm
+from django.db.models import QuerySet
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 
 # Create your views here.
 from home.models import Setting, UserProfile
-from note.models import Category
+from note.models import Category, Comment, Note
 from user.forms import UserUpdateForm, ProfileUpdateForm
 
 
@@ -61,3 +63,26 @@ def change_password(request):
         return render(request, 'change_password.html', {
             'form': form, 'category': category, 'setting': setting,
         })
+
+
+@login_required(login_url='/login')
+def user_comments(request):
+    current_user = request.user
+    notes = Note.objects.all()
+    setting = Setting.objects.get(pk=1)
+    comments = Comment.objects.filter(user_id=current_user.id)
+    category = Category.objects.all()
+    context = {'setting': setting,
+               'category': category,
+               'notes': notes,
+               'comments': comments
+               }
+    return render(request, 'user_comments.html', context)
+
+
+@login_required(login_url='/login')
+def deletecomment(request, id):
+    current_user = request.user
+    Comment.objects.filter(id=id, user_id=current_user.id).delete()
+    messages.success(request, "Yorumunuz silindi.")
+    return HttpResponseRedirect('/user/comments')
