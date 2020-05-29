@@ -120,7 +120,7 @@
                                 <ul>
                                     {% recursetree category %}
                                         <li>
-                                            <b>{{ node.title }}</b>
+                                            <a href="/category/{{ node.id }}/{{ node.slug }}"><b>{{ node.title }}</b></a>
                                         </li>
                                         {% if not node.is_leaf_node  %}
                                             <ul class="children">

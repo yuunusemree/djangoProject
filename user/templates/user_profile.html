@@ -62,6 +62,13 @@
 					<div class="courses_container">
 						<div class="row courses_row">
                             <h2 class="form_title" style="margin-top: -30px">User Information</h2><br><br>
+                                {% if messages %}
+                                    {% for message in messages %}
+                                        <div class="alert alert-{{ message.tags }}" role="alert">
+                                            {{ message | safe }}
+                                        </div>
+                                    {% endfor %}
+                                {% endif %}
                             <table class="table">
                                 <tr>
                                     <th class="text-left" style="padding-top: 55px">

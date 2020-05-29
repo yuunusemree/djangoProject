@@ -8,8 +8,9 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 from home.models import Setting, UserProfile
-from note.models import Category, Comment, Note
+from note.models import Category, Comment, Note, Images
 from user.forms import UserUpdateForm, ProfileUpdateForm
+from user.models import NoteForm, NoteImageForm
 
 
 def index(request):
@@ -32,7 +33,6 @@ def user_update(request):
             profile_form.save()
             messages.success(request, "Hesabınız güncellendi.")
             return redirect('/user')
-
     else:
         category = Category.objects.all()
         user_form = UserUpdateForm(instance=request.user)
@@ -86,3 +86,111 @@ def deletecomment(request, id):
     Comment.objects.filter(id=id, user_id=current_user.id).delete()
     messages.success(request, "Yorumunuz silindi.")
     return HttpResponseRedirect('/user/comments')
+
+
+@login_required(login_url='/login')
+def usernotes(request):
+    category = Category.objects.all()
+    setting = Setting.objects.get(pk=1)
+    current_user = request.user
+    usernotes = Note.objects.filter(user_id=current_user.id)
+    context = {'setting': setting,
+               'category': category,
+               'usernotes': usernotes
+               }
+    return render(request, 'user_notes.html', context)
+
+
+@login_required(login_url='/login')
+def addnote(request):
+    if request.method == 'POST':
+        form = NoteForm(request.POST, request.FILES)
+        if form.is_valid():
+            current_user = request.user
+            catid = form.cleaned_data['category']
+            data = Note()
+            data.category_id = catid.id
+            data.title = form.cleaned_data['title']
+            data.keywords = form.cleaned_data['keywords']
+            data.description = form.cleaned_data['description']
+            data.image = form.cleaned_data['image']
+            data.detail = form.cleaned_data['detail']
+            data.slug = form.cleaned_data['slug']
+            data.status = 'False'
+            data.user_id = current_user.id
+            data.save()
+            messages.success(request, "Not başarıyla eklendi")
+            return HttpResponseRedirect('/user/usernotes')
+        else:
+            messages.warning(request, "Please correct the errors: " + str(form.errors))
+            return HttpResponseRedirect('/user/addnote')
+    else:
+        category = Category.objects.all()
+        setting = Setting.objects.get(pk=1)
+        form = NoteForm()
+        context = {'setting': setting,
+                   'category': category,
+                   'form': form
+                   }
+        return render(request, 'user_addnote.html', context)
+
+
+@login_required(login_url='/login')
+def editnote(request, id):
+    note = Note.objects.get(id=id)
+    if request.method == 'POST':
+        form = NoteForm(request.POST, request.FILES, instance=note)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Not başarıyla güncellendi")
+            return HttpResponseRedirect('/user/usernotes')
+        else:
+            messages.warning(request, "Please correct the errors: " + str(form.errors))
+            return HttpResponseRedirect('/user/editnote' + str(id))
+    else:
+        category = Category.objects.all()
+        setting = Setting.objects.get(pk=1)
+        form = NoteForm(instance=note)
+        context = {'setting': setting,
+                   'category': category,
+                   'form': form
+                   }
+        return render(request, 'user_addnote.html', context)
+
+
+@login_required(login_url='/login')
+def deletenote(request, id):
+    current_user = request.user
+    Note.objects.filter(id=id, user_id=current_user.id).delete()
+    messages.success(request, "Not başarıyla silindi")
+    return HttpResponseRedirect('/user/usernotes')
+
+
+def imageaddnote(request, id):
+    if request.method == 'POST':
+        lasturl = request.META.get('HTTP_REFERER')
+        form = NoteImageForm(request.POST, request.FILES)
+        if form.is_valid():
+            data = Images()
+            data.title = form.cleaned_data['title']
+            data.note_id = id
+            data.image = form.cleaned_data['image']
+            data.save()
+            messages.success(request, "Resim başarıyla eklendi")
+            return HttpResponseRedirect(lasturl)
+        else:
+            messages.warning(request, 'Form Error : ' + str(form.errors))
+            return HttpResponseRedirect(lasturl)
+    else:
+        setting = Setting.objects.get(pk=1)
+        note = Note.objects.get(id=id)
+        images = Images.objects.filter(note_id=id)
+        form = NoteImageForm()
+        context = {'setting': setting,
+                   'note': note,
+                   'images': images,
+                   'form': form
+                   }
+        return render(request, 'note_gallery.html', context)
+
+

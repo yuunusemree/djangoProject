@@ -56,18 +56,19 @@ class NoteAdmin(admin.ModelAdmin):
     list_display = ['title', 'category', 'image_tag', 'status']
     list_filter = ['status', 'category']
     inlines = [NoteImageInline]
-    readonly_fields = ('image_tag',)
+    readonly_fields = ('image_tag', 'user')
     prepopulated_fields = {'slug': ('title',)}
 
 
 class ImagesAdmin(admin.ModelAdmin):
     list_display = ['title', 'note', 'image_tag']
-    readonly_fields = ('image_tag',)
+    readonly_fields = ('note', 'title', 'image', 'image_tag')
 
 
 class CommentAdmin(admin.ModelAdmin):
     list_display = ['subject', 'comment', 'note', 'user', 'status']
     list_filter = ['status']
+    readonly_fields = ('note', 'user', 'subject', 'comment', 'rate', 'ip')
 
 
 admin.site.register(Category, CategoryAdmin2)

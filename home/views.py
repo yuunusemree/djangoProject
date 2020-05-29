@@ -7,16 +7,16 @@ from django.shortcuts import render
 
 # Create your views here.
 from home.forms import SearchForm, RegisterForm
-from home.models import Setting, ContactFormu, ContactFormMessage
+from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile
 from note.models import Note, Category, Images, Comment
 
 
 def index(request):
     setting = Setting.objects.get(pk=1)
-    sliderdata = Note.objects.all()[:4]
-    category = Category.objects.all()
-    randomnotes = Note.objects.all().order_by('?')[:3]
-    lastnotes = Note.objects.all().order_by('-id')[:3]
+    sliderdata = Note.objects.filter(status=True)[:4]
+    category = Category.objects.filter(status=True)
+    randomnotes = Note.objects.filter(status=True).order_by('?')[:3]
+    lastnotes = Note.objects.filter(status=True).order_by('-id')[:3]
     context = {'setting': setting,
                'category': category,
                'sliderdata': sliderdata,
@@ -35,8 +35,8 @@ def hakkimizda(request):
 
 def dersler(request):
     setting = Setting.objects.get(pk=1)
-    category = Category.objects.all()
-    notes = Note.objects.all()
+    category = Category.objects.filter(status=True)
+    notes = Note.objects.filter(status=True)
     context = {'setting': setting,
                'category': category,
                'notes': notes,
@@ -46,7 +46,10 @@ def dersler(request):
 
 def referanslar(request):
     setting = Setting.objects.get(pk=1)
-    context = {'setting': setting}
+    notes = Note.objects.filter(status=True)
+    context = {'setting': setting,
+               'notes': notes
+               }
     return render(request, 'referanslarimiz.html', context)
 
 
@@ -72,7 +75,7 @@ def iletisim(request):
 
 
 def category_notes(request, id, slug):
-    category = Category.objects.all()
+    category = Category.objects.filter(status=True)
     categorydata = Category.objects.get(pk=id)
     notes = Note.objects.filter(category_id=id)
     setting = Setting.objects.get(pk=1)
@@ -86,7 +89,7 @@ def category_notes(request, id, slug):
 
 
 def note_detail(request, id, slug):
-    category = Category.objects.all()
+    category = Category.objects.filter(status=True)
     note = Note.objects.get(pk=id)
     images = Images.objects.filter(note_id=id)
     comments = Comment.objects.filter(note_id=id, status='True')
@@ -108,25 +111,28 @@ def note_search(request):
     if request.method == 'POST':
         form = SearchForm(request.POST)
         if form.is_valid():
-            category = Category.objects.all
+            category = Category.objects.filter(status=True)
             query = form.cleaned_data['query']
             catid = form.cleaned_data['catid']
             if catid == 0:
-                notes = Note.objects.filter(title__icontains=query)
+                notes = Note.objects.filter(title__icontains=query, status=True)
             else:
-                notes = Note.objects.filter(title__icontains=query, category_id=catid)
+                notes = Note.objects.filter(title__icontains=query, category_id=catid, status=True)
             context = {'notes': notes,
                        'category': category,
                        'setting': setting
                        }
             return render(request, 'notes_search.html', context)
-    return HttpResponseRedirect('/')
+        else:
+            return HttpResponse(str(form.errors))
+    else:
+        return HttpResponseRedirect('/')
 
 
 def note_search_auto(request):
     if request.is_ajax():
         q = request.GET.get('term', '')
-        note = Note.objects.filter(title__icontains=q)
+        note = Note.objects.filter(title__icontains=q, status=True)
         results = []
         for rs in note:
             note_json = {}
@@ -156,7 +162,7 @@ def login_view(request):
             messages.warning(request, "Kullanıcı ya da şifrenizi kontrol ediniz.")
             return HttpResponseRedirect('/login')
     setting = Setting.objects.get(pk=1)
-    category = Category.objects.all()
+    category = Category.objects.filter(status=True)
     context = {'category': category,
                'setting': setting
                }
@@ -172,11 +178,16 @@ def register_view(request):
             password = form.cleaned_data['password1']
             user = authenticate(username=username, password=password)
             login(request, user)
+            current_user = request.user
+            data = UserProfile()
+            data.user_id = current_user.id
+            data.image = "pictures/users/user.png"
+            data.save()
             return HttpResponseRedirect('/')
 
     form = RegisterForm()
     setting = Setting.objects.get(pk=1)
-    category = Category.objects.all()
+    category = Category.objects.filter(status=True)
     context = {'category': category,
                'setting': setting,
                'form': form
