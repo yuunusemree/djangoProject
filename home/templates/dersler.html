@@ -43,7 +43,7 @@
 						<div class="breadcrumbs">
 							<ul>
 								<li><a href="/">Anasayfa</a></li>
-								<li>{{categorydata.title}}</li>
+								<li>{% if categorydata %}{{categorydata.title}}{% else %}Dersler{% endif %}</li>
 							</ul>
 						</div>
 					</div>
@@ -129,13 +129,12 @@
 							<div class="sidebar_latest">
                                 {% for rs in lastnotes %}
 								<!-- Latest Course -->
-								<div class="latest d-flex flex-row align-items-start justify-content-start">
+								<div class="latest d-flex flex-row align-items-start justify-content-start" style="height: 100px">
 									<div class="latest_image">
-                                        <div><img src="{{ rs.image.url }}" width="90px" height="74px" alt=""></div>
+                                        <div><img src="{{ rs.image.url }}" width="90px" height="100px" alt=""></div>
                                     </div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="/note/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></div>
-										<div class="latest_price">Free</div>
 									</div>
 								</div>
                                 {% endfor %}

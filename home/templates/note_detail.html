@@ -63,18 +63,12 @@
 
 					<div class="course_container">
 						<div class="course_title">{{ note.title }}</div>
-						<div class="course_info d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
+						<div class="course_info d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-center">
 
 							<!-- Course Info Item -->
 							<div class="course_info_item">
 								<div class="course_info_title">Owner:</div>
-								<div class="course_info_text"><a href="#">{{ note.user.first_name }} {{ note.user.last_name }}</a></div>
-							</div>
-
-							<!-- Course Info Item -->
-							<div class="course_info_item">
-								<div class="course_info_title">Reviews:</div>
-								<div class="rating_r rating_r_4"><i></i><i></i><i></i><i></i><i></i></div>
+								<div class="course_info_text">{{ note.user.first_name }} {{ note.user.last_name }}</div>
 							</div>
 
 							<!-- Course Info Item -->
@@ -250,7 +244,6 @@
                                     </div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="/note/{{ rs.id }}/{{ rs.slug }}">{{ rs.title }}</a></div>
-										<div class="latest_price">Free</div>
 									</div>
 								</div>
                                 {% endfor %}

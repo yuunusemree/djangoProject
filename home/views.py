@@ -80,8 +80,10 @@ def category_notes(request, id, slug):
     category = Category.objects.filter(status=True)
     categorydata = Category.objects.get(id=id)
     notes = Note.objects.filter(category_id=id, status=True)
+    lastnotes = Note.objects.filter(status=True).order_by('-id')[:3]
     setting = Setting.objects.get(pk=1)
     context = {'notes': notes,
+               'lastnotes': lastnotes,
                'category': category,
                'slug': slug,
                'categorydata': categorydata,
