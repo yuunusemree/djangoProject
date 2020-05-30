@@ -25,6 +25,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'plugins/colorbox/colorbox.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'styles/course.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'styles/course_responsive.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/courses.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/courses_responsive.css' %}">
 
 {% endblock %}
 
@@ -216,37 +218,23 @@
 				<div class="col-lg-4">
 					<div class="sidebar">
 
-						<!-- Feature -->
+                        <!-- Categories -->
 						<div class="sidebar_section">
-							<div class="sidebar_section_title">Teacher</div>
-							<div class="sidebar_teacher">
-								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
-									<div class="teacher_image"><img src="{% static 'images/teacher.jpg' %}" alt=""></div>
-									<div class="teacher_title">
-										<div class="teacher_name"><a href="#">Jacke Masito</a></div>
-										<div class="teacher_position">Marketing & Management</div>
-									</div>
-								</div>
-								<div class="teacher_meta_container">
-									<!-- Teacher Rating -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Average Rating:</div>
-										<div class="teacher_meta_text ml-auto"><span>4.7</span><i class="fa fa-star" aria-hidden="true"></i></div>
-									</div>
-									<!-- Teacher Review -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Review:</div>
-										<div class="teacher_meta_text ml-auto"><span>12k</span><i class="fa fa-comment" aria-hidden="true"></i></div>
-									</div>
-									<!-- Teacher Quizzes -->
-									<div class="teacher_meta d-flex flex-row align-items-center justify-content-start">
-										<div class="teacher_meta_title">Quizzes:</div>
-										<div class="teacher_meta_text ml-auto"><span>600</span><i class="fa fa-user" aria-hidden="true"></i></div>
-									</div>
-								</div>
-								<div class="teacher_info">
-									<p>Hi! I am Masion, I’m a marketing & management  eros pulvinar velit laoreet, sit amet egestas erat dignissim. Sed quis rutrum tellus, sit amet viverra felis. Cras sagittis sem sit amet urna feugiat rutrum nam nulla ipsum.</p>
-								</div>
+							<div class="sidebar_section_title">Categories</div>
+							<div class="sidebar_categories">
+                                {% load mptt_tags %}
+                                <ul>
+                                    {% recursetree category %}
+                                        <li>
+                                            <a href="/category/{{ node.id }}/{{ node.slug }}"><b>{{ node.title }}</b></a>
+                                        </li>
+                                        {% if not node.is_leaf_node  %}
+                                            <ul class="children">
+                                                {{ children }}
+                                            </ul>
+                                        {% endif %}
+                                    {% endrecursetree %}
+                                </ul>
 							</div>
 						</div>
 

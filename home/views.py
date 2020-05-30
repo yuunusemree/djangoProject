@@ -7,7 +7,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from home.forms import SearchForm, RegisterForm
-from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile
+from home.models import Setting, ContactFormu, ContactFormMessage, UserProfile, FAQ
 from note.models import Note, Category, Images, Comment
 
 
@@ -37,9 +37,11 @@ def dersler(request):
     setting = Setting.objects.get(pk=1)
     category = Category.objects.filter(status=True)
     notes = Note.objects.filter(status=True)
+    lastnotes = Note.objects.filter(status=True).order_by('-id')[:3]
     context = {'setting': setting,
                'category': category,
                'notes': notes,
+               'lastnotes': lastnotes
                }
     return render(request, 'dersler.html', context)
 
@@ -76,8 +78,8 @@ def iletisim(request):
 
 def category_notes(request, id, slug):
     category = Category.objects.filter(status=True)
-    categorydata = Category.objects.get(pk=id)
-    notes = Note.objects.filter(category_id=id)
+    categorydata = Category.objects.get(id=id)
+    notes = Note.objects.filter(category_id=id, status=True)
     setting = Setting.objects.get(pk=1)
     context = {'notes': notes,
                'category': category,
@@ -93,7 +95,7 @@ def note_detail(request, id, slug):
     note = Note.objects.get(pk=id)
     images = Images.objects.filter(note_id=id)
     comments = Comment.objects.filter(note_id=id, status='True')
-    lastnotes = Note.objects.all().order_by('-id')[:3]
+    lastnotes = Note.objects.filter(status=True).order_by('-id')[:3]
     setting = Setting.objects.get(pk=1)
     context = {'note': note,
                'category': category,
@@ -193,3 +195,20 @@ def register_view(request):
                'form': form
                }
     return render(request, 'register.html', context)
+
+
+def faq(request):
+    setting = Setting.objects.get(pk=1)
+    category = Category.objects.filter(status=True)
+    note = Note.objects.filter(status=True)
+    lastnotes = Note.objects.filter(status=True).order_by('-id')[:3]
+    sss = FAQ.objects.filter(status=True).order_by('orderno')
+    context = {'category': category,
+               'setting': setting,
+               'note': note,
+               'lastnotes': lastnotes,
+               'sss': sss
+               }
+    return render(request, 'faq.html', context)
+
+
